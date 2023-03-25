@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1rem;
+	text-align: center;
+	background-color: white;
+}
+
+.Heading {
+	font-size: 35px;
+	background-color: #000;
+	color: #fff;
+}
+.dfa-img {
+	width: 60%;
+	height: auto;
+	margin: 50px 20%;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+.fullform {
+	font-size: 22px;
+}
+
+.btn-grp {
+	width: 80%;
+	margin: 40px auto;
+}
+
+.btn {
+	margin: 0 15px;
+	color: #1f1f1f;
+	border: 2px solid #1f1f1f;
+	padding: 18px 36px;
+	display: inline-block;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 white;
+	transition: ease-out 0.4s;
+}
+
+.btn:hover {
+	color: white;
+	box-shadow: inset 0 100px 0 0 #1f1f1f;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 70px 0;
+}
+
+.btn-main {
+	cursor: pointer;
+	text-decoration: none;
+	padding: 12px 18px;
+    margin: 0 15px;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	letter-spacing: 3px;
+	transition: all 0.4s ease-in-out;
+	border: solid 2px white;
+	background: #1f1f1f;
+	color: white;
+}
+
+.btn-main:hover {
+	transition: all 0.4s ease-in-out;
+	border: solid 2px #1f1f1f;
+	background: white;
+	color: #1f1f1f;
+}
+
+.container {
+	width: 80%;
+	padding: 50px 0 200px;
+	margin: 50px auto;
+}
+
+.outer-div {
+	display: inline-block;
+	position: relative;
+}
+
+.self-arrow-p {
+	position: absolute;
+	top: -30px;
+	left: 8px;
+}
+
+.self-arrow {
+	font-size: 3rem;
+	position: absolute;
+	top: -30px;
+	left: 7px;
+}
+
+.state {
+	border: 2px solid black;
+	border-radius: 40px;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	text-align: center;
+}
+
+.state-p {
+	font-size: 3rem;
+	height: 80%;
+	margin-top: 10%;
+	display: inline-block;
+	font-weight: 100;
+	position: absolute;
+	top: -12px;
+	left: 12px;
+}
+
+.named-state {
+	font-size: 1rem;
+	top: 7px;
+}
+
+.final-state {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+
+.input-div {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+
+.input {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 7px;
+}
+
+.arrow {
+	font-size: 3rem;
+	position: absolute;
+	top: 1px;
+}
+
+.white-color {
+	color: white;
+	border-color: white;
+}
+
+footer {
+	padding: 50px;
+	background-color: #eee;
+}
+
+.foodstate {
+    font-size: 30px;
+    color: #000;
+    transform: translateY(40px);
+}
